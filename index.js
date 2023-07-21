@@ -4,7 +4,7 @@ const port = process.env.PORT;
 // const port = 8000;
 const app = express();
 
-// console.log(process.env.PORT);
+console.log(process.env.SECERET);
 
 app.get('/', (req, res)=>{
     return res.end('Test file version-2');
